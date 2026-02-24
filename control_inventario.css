@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:rgb(135, 175, 201);
+}
+
+h1 {
+    margin-top: 20px;
+    color: rgb(102, 8, 8);
+}
+
+.registroInv {
+    width: 400px;
+    background-color: rgb(169, 120, 229);
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registroInv input {
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: rgb(6, 31, 255);
+}
+
+.registroInv h2 {
+    text-align: center;
+}
+
+.btnAdd {
+    background-color: rgb(0, 255, 140);
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btnAdd:hover {
+    color: white;
+    background-color: rgb(8, 137, 23);
+}
+
+#mensaje {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    color: white;
+    display: none;
+    font-weight: bold;
+}
+
+.mnsj-exito {
+    background-color: green;
+}
+
+.mnsj-error {
+    background-color: red;
+}
