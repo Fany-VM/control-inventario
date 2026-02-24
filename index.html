@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Inventario</title>
+    <link rel="stylesheet" href="control_inventario.css">
+    <script src="control-inventario.js" defer></script>
+</head>
+<body>
+    <div id="mensaje"></div>
+    
+    <h1>Control de Inventario</h1>
+
+    <form class="registroInv" id="formInventario">
+        <h2>Registro</h2>
+
+        <label><strong>Código de Producto</strong></label>
+        <input type="text" id="codigo">
+
+        <label><strong>Descripción</strong></label>
+        <input type="text" id="nombre" placeholder="Nombre del producto">
+
+        <label><strong>Categoría</strong></label>
+        <input type="text" id="categoria" placeholder="Ej. electrónica, ropa...">
+
+        <label><strong>Cantidad</strong></label>
+        <input type="number" id="cantidad" placeholder="Stock disponible">
+        
+        <label><strong>Precio</strong></label>
+        <input type="number" id="precio" placeholder="Mayor a $0">
+
+        <button type="button" class="btnAdd" onclick="agregarProducto()">AGREGAR</button>
+    </form>
+</body>
+</html>
